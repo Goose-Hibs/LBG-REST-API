@@ -127,3 +127,20 @@ Our first example of system testing is 'system integration testing' to perform t
 If we created our Lemon above and received the 201 status code and status text created we could then READ all of the products and expect a status code of 200, status text of OK and a message body containing the Lemon that we created.
 
 Alternatively, we could 'black box' system test by using the front end to create a new product and reading the page to make sure that the new product has been created.
+
+### User Acceptance Testing
+
+An example of a user acceptance test would be:
+
+*As a* user
+*when* I enter a prodcut id into the update field
+*and* enter new information
+*I want* to be able to see that the product has updated.
+
+GIVEN that a user can access the front end of the API
+WHEN they enter a valid id into the update field
+AND they enter a name
+AND they enter a description
+AND they enter a price
+AND they click the PUT button
+THEN the updated product is visible on the page
