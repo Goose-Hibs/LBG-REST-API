@@ -144,3 +144,5 @@ AND they enter a description
 AND they enter a price
 AND they click the PUT button
 THEN the updated product is visible on the page
+
+***Text added for QA project Jenkins section (Part II - Step 4).
