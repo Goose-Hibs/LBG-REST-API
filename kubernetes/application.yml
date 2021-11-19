@@ -20,6 +20,6 @@ spec:
     spec:
       containers:
       - name: jamesa
-        image: gcr.io/lbg-training/jamesa-node-app-image:${BUILD_ID}
+        image: gcr.io/lbg-training/jamesa-node-app-image:12
         ports:
         - containerPort: 80
