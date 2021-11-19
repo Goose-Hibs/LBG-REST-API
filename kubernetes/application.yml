@@ -22,4 +22,4 @@ spec:
       - name: jamesa
         image: gcr.io/lbg-training/jamesa-node-app-image:12
         ports:
-        - containerPort: 80
+        - containerPort: 5000

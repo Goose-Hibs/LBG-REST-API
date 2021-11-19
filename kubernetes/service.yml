@@ -1,0 +1,12 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: jamesa
+spec:
+  type: LoadBalancer
+  selector:
+    app: jamesa
+  ports:
+  - protocol: TCP
+    port: 80        # Defines the Service's port within the cluster
+    targetPort: 5000  # Defines the Pod's port
