@@ -8,5 +8,5 @@ spec:
     app: jamesa
   ports:
   - protocol: TCP
-    port: 80        # Defines the Service's port within the cluster
-    targetPort: 5000  # Defines the Pod's port
+    port: 80
+    targetPort: 5000
